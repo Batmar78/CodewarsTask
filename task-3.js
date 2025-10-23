@@ -21,9 +21,7 @@ function giveMeFive(obj){
 // https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
 
 function buildFun(n){
-
-	const arrFunc = []
-
+	const arrFunc = [];
 	for (let i = 0; i< n; i++){
 		arrFunc.push(function(){
 			return i;
